@@ -14,6 +14,8 @@ describe(@"String Calculator", ^{
 	__block id mathematics;
 	__block id numberFilter;
 	
+	// NB: Testing with mock objects ensures that we are only testing the responsibility of the StringCalculator class (as a coordinator) and not the outcome of any of its collaborators
+	
 	context(@"with mock objects", ^{
 		
 		beforeEach(^{
@@ -63,6 +65,8 @@ describe(@"String Calculator", ^{
 		});
 	});
 
+	// NB: Partial integration tests to prove basic functionality.  We should refer to the collaborators unit tests to understand the complete expectations for each
+	
 	context(@"integration tests", ^{
 		
 		beforeEach(^{
