@@ -19,9 +19,15 @@
 	NSAssert(self.mathematics, @"no maths defined");
 	NSAssert(self.numberFilter, @"no filter defined");
 	
+	// parse the input string into an array of numbers
+	
 	NSArray *unfilteredNumbers  = [self.numberParser parseString:numberString];
 	
+	// filter out any values that are undesired
+	
 	NSArray *filteredNumbers = [self.numberFilter filter:unfilteredNumbers];
+	
+	// calculate the sum of all the desired numbers
 	
 	return [self.mathematics sum: filteredNumbers];
 	
