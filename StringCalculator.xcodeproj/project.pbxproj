@@ -29,6 +29,7 @@
 		A318C3301727FD0D008F3CFE /* NumberFilterSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A318C32C1727FD0D008F3CFE /* NumberFilterSpec.m */; };
 		A318C3311727FD0D008F3CFE /* NumberParserSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A318C32D1727FD0D008F3CFE /* NumberParserSpec.m */; };
 		A318C3321727FD0D008F3CFE /* StringCalculatorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A318C32E1727FD0D008F3CFE /* StringCalculatorSpec.m */; };
+		A318C3361728060A008F3CFE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A318C3351728060A008F3CFE /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		A318C32C1727FD0D008F3CFE /* NumberFilterSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberFilterSpec.m; sourceTree = "<group>"; };
 		A318C32D1727FD0D008F3CFE /* NumberParserSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberParserSpec.m; sourceTree = "<group>"; };
 		A318C32E1727FD0D008F3CFE /* StringCalculatorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringCalculatorSpec.m; sourceTree = "<group>"; };
+		A318C3351728060A008F3CFE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		A304E3311727FAAB002E9C88 = {
 			isa = PBXGroup;
 			children = (
+				A318C3351728060A008F3CFE /* README.md */,
 				A304E3431727FAAB002E9C88 /* StringCalculator */,
 				A304E3611727FAAD002E9C88 /* StringCalculatorTests */,
 				A304E33C1727FAAB002E9C88 /* Frameworks */,
@@ -262,6 +265,7 @@
 				A304E3501727FAAC002E9C88 /* Default.png in Resources */,
 				A304E3521727FAAC002E9C88 /* Default@2x.png in Resources */,
 				A304E3541727FAAC002E9C88 /* Default-568h@2x.png in Resources */,
+				A318C3361728060A008F3CFE /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
