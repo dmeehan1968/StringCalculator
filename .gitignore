@@ -1,0 +1,8 @@
+Podfile
+Podfile.lock
+Pods/*
+StringCalculator.xcodeproj/project.xc*
+StringCalculator.xcodeproj/xcuserdata/*
+StringCalculator.xcworkspace/*
+*.swp
+
