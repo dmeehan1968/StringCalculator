@@ -21,15 +21,15 @@
 		A304E35D1727FAAD002E9C88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A304E33D1727FAAB002E9C88 /* UIKit.framework */; };
 		A304E35E1727FAAD002E9C88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A304E33F1727FAAB002E9C88 /* Foundation.framework */; };
 		A304E3661727FAAD002E9C88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A304E3641727FAAD002E9C88 /* InfoPlist.strings */; };
-		A304E37A1727FB25002E9C88 /* Mathematics.m in Sources */ = {isa = PBXBuildFile; fileRef = A304E3731727FB25002E9C88 /* Mathematics.m */; };
-		A304E37B1727FB25002E9C88 /* NumberFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A304E3751727FB25002E9C88 /* NumberFilter.m */; };
-		A304E37C1727FB25002E9C88 /* NumberParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A304E3771727FB25002E9C88 /* NumberParser.m */; };
-		A304E37D1727FB25002E9C88 /* StringCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = A304E3791727FB25002E9C88 /* StringCalculator.m */; };
 		A318C32F1727FD0D008F3CFE /* MathematicsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A318C32B1727FD0D008F3CFE /* MathematicsSpec.m */; };
 		A318C3301727FD0D008F3CFE /* NumberFilterSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A318C32C1727FD0D008F3CFE /* NumberFilterSpec.m */; };
 		A318C3311727FD0D008F3CFE /* NumberParserSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A318C32D1727FD0D008F3CFE /* NumberParserSpec.m */; };
 		A318C3321727FD0D008F3CFE /* StringCalculatorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A318C32E1727FD0D008F3CFE /* StringCalculatorSpec.m */; };
 		A318C3361728060A008F3CFE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A318C3351728060A008F3CFE /* README.md */; };
+		A318C3421728137B008F3CFE /* Mathematics.m in Sources */ = {isa = PBXBuildFile; fileRef = A318C33B1728137B008F3CFE /* Mathematics.m */; };
+		A318C3431728137B008F3CFE /* NumberFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A318C33D1728137B008F3CFE /* NumberFilter.m */; };
+		A318C3441728137B008F3CFE /* NumberParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A318C33F1728137B008F3CFE /* NumberParser.m */; };
+		A318C3451728137B008F3CFE /* StringCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = A318C3411728137B008F3CFE /* StringCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,19 +62,19 @@
 		A304E35B1727FAAD002E9C88 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		A304E3631727FAAD002E9C88 /* StringCalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StringCalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		A304E3651727FAAD002E9C88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A304E3721727FB25002E9C88 /* Mathematics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mathematics.h; sourceTree = "<group>"; };
-		A304E3731727FB25002E9C88 /* Mathematics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mathematics.m; sourceTree = "<group>"; };
-		A304E3741727FB25002E9C88 /* NumberFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberFilter.h; sourceTree = "<group>"; };
-		A304E3751727FB25002E9C88 /* NumberFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberFilter.m; sourceTree = "<group>"; };
-		A304E3761727FB25002E9C88 /* NumberParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberParser.h; sourceTree = "<group>"; };
-		A304E3771727FB25002E9C88 /* NumberParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberParser.m; sourceTree = "<group>"; };
-		A304E3781727FB25002E9C88 /* StringCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringCalculator.h; sourceTree = "<group>"; };
-		A304E3791727FB25002E9C88 /* StringCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringCalculator.m; sourceTree = "<group>"; };
 		A318C32B1727FD0D008F3CFE /* MathematicsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathematicsSpec.m; sourceTree = "<group>"; };
 		A318C32C1727FD0D008F3CFE /* NumberFilterSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberFilterSpec.m; sourceTree = "<group>"; };
 		A318C32D1727FD0D008F3CFE /* NumberParserSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberParserSpec.m; sourceTree = "<group>"; };
 		A318C32E1727FD0D008F3CFE /* StringCalculatorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringCalculatorSpec.m; sourceTree = "<group>"; };
 		A318C3351728060A008F3CFE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		A318C33A1728137B008F3CFE /* Mathematics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mathematics.h; sourceTree = "<group>"; };
+		A318C33B1728137B008F3CFE /* Mathematics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mathematics.m; sourceTree = "<group>"; };
+		A318C33C1728137B008F3CFE /* NumberFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberFilter.h; sourceTree = "<group>"; };
+		A318C33D1728137B008F3CFE /* NumberFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberFilter.m; sourceTree = "<group>"; };
+		A318C33E1728137B008F3CFE /* NumberParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberParser.h; sourceTree = "<group>"; };
+		A318C33F1728137B008F3CFE /* NumberParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberParser.m; sourceTree = "<group>"; };
+		A318C3401728137B008F3CFE /* StringCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringCalculator.h; sourceTree = "<group>"; };
+		A318C3411728137B008F3CFE /* StringCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringCalculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,14 +138,7 @@
 		A304E3431727FAAB002E9C88 /* StringCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				A304E3721727FB25002E9C88 /* Mathematics.h */,
-				A304E3731727FB25002E9C88 /* Mathematics.m */,
-				A304E3741727FB25002E9C88 /* NumberFilter.h */,
-				A304E3751727FB25002E9C88 /* NumberFilter.m */,
-				A304E3761727FB25002E9C88 /* NumberParser.h */,
-				A304E3771727FB25002E9C88 /* NumberParser.m */,
-				A304E3781727FB25002E9C88 /* StringCalculator.h */,
-				A304E3791727FB25002E9C88 /* StringCalculator.m */,
+				A318C3391728137B008F3CFE /* Classes */,
 				A304E3441727FAAB002E9C88 /* Supporting Files */,
 			);
 			path = StringCalculator;
@@ -186,6 +179,21 @@
 				A304E3641727FAAD002E9C88 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A318C3391728137B008F3CFE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A318C33A1728137B008F3CFE /* Mathematics.h */,
+				A318C33B1728137B008F3CFE /* Mathematics.m */,
+				A318C33C1728137B008F3CFE /* NumberFilter.h */,
+				A318C33D1728137B008F3CFE /* NumberFilter.m */,
+				A318C33E1728137B008F3CFE /* NumberParser.h */,
+				A318C33F1728137B008F3CFE /* NumberParser.m */,
+				A318C3401728137B008F3CFE /* StringCalculator.h */,
+				A318C3411728137B008F3CFE /* StringCalculator.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,10 +324,10 @@
 			files = (
 				A304E34A1727FAAC002E9C88 /* main.m in Sources */,
 				A304E34E1727FAAC002E9C88 /* SCAppDelegate.m in Sources */,
-				A304E37A1727FB25002E9C88 /* Mathematics.m in Sources */,
-				A304E37B1727FB25002E9C88 /* NumberFilter.m in Sources */,
-				A304E37C1727FB25002E9C88 /* NumberParser.m in Sources */,
-				A304E37D1727FB25002E9C88 /* StringCalculator.m in Sources */,
+				A318C3421728137B008F3CFE /* Mathematics.m in Sources */,
+				A318C3431728137B008F3CFE /* NumberFilter.m in Sources */,
+				A318C3441728137B008F3CFE /* NumberParser.m in Sources */,
+				A318C3451728137B008F3CFE /* StringCalculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
