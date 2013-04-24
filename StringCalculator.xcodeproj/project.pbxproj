@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4014C26861344682981EB8E1 /* libPods-StringCalculatorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 307A0C59968F4BCDA34CFB5F /* libPods-StringCalculatorTests.a */; };
 		A304E33E1727FAAB002E9C88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A304E33D1727FAAB002E9C88 /* UIKit.framework */; };
 		A304E3401727FAAB002E9C88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A304E33F1727FAAB002E9C88 /* Foundation.framework */; };
 		A304E3421727FAAB002E9C88 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A304E3411727FAAB002E9C88 /* CoreGraphics.framework */; };
@@ -20,7 +21,14 @@
 		A304E35D1727FAAD002E9C88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A304E33D1727FAAB002E9C88 /* UIKit.framework */; };
 		A304E35E1727FAAD002E9C88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A304E33F1727FAAB002E9C88 /* Foundation.framework */; };
 		A304E3661727FAAD002E9C88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A304E3641727FAAD002E9C88 /* InfoPlist.strings */; };
-		A304E3691727FAAD002E9C88 /* StringCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A304E3681727FAAD002E9C88 /* StringCalculatorTests.m */; };
+		A304E37A1727FB25002E9C88 /* Mathematics.m in Sources */ = {isa = PBXBuildFile; fileRef = A304E3731727FB25002E9C88 /* Mathematics.m */; };
+		A304E37B1727FB25002E9C88 /* NumberFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A304E3751727FB25002E9C88 /* NumberFilter.m */; };
+		A304E37C1727FB25002E9C88 /* NumberParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A304E3771727FB25002E9C88 /* NumberParser.m */; };
+		A304E37D1727FB25002E9C88 /* StringCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = A304E3791727FB25002E9C88 /* StringCalculator.m */; };
+		A318C32F1727FD0D008F3CFE /* MathematicsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A318C32B1727FD0D008F3CFE /* MathematicsSpec.m */; };
+		A318C3301727FD0D008F3CFE /* NumberFilterSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A318C32C1727FD0D008F3CFE /* NumberFilterSpec.m */; };
+		A318C3311727FD0D008F3CFE /* NumberParserSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A318C32D1727FD0D008F3CFE /* NumberParserSpec.m */; };
+		A318C3321727FD0D008F3CFE /* StringCalculatorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A318C32E1727FD0D008F3CFE /* StringCalculatorSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22C75E4C8FB54B008627E788 /* Pods-StringCalculatorTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StringCalculatorTests.xcconfig"; path = "Pods/Pods-StringCalculatorTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		307A0C59968F4BCDA34CFB5F /* libPods-StringCalculatorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StringCalculatorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A304E33A1727FAAB002E9C88 /* StringCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StringCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A304E33D1727FAAB002E9C88 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A304E33F1727FAAB002E9C88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -51,8 +61,18 @@
 		A304E35B1727FAAD002E9C88 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		A304E3631727FAAD002E9C88 /* StringCalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StringCalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		A304E3651727FAAD002E9C88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A304E3671727FAAD002E9C88 /* StringCalculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringCalculatorTests.h; sourceTree = "<group>"; };
-		A304E3681727FAAD002E9C88 /* StringCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringCalculatorTests.m; sourceTree = "<group>"; };
+		A304E3721727FB25002E9C88 /* Mathematics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mathematics.h; sourceTree = "<group>"; };
+		A304E3731727FB25002E9C88 /* Mathematics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mathematics.m; sourceTree = "<group>"; };
+		A304E3741727FB25002E9C88 /* NumberFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberFilter.h; sourceTree = "<group>"; };
+		A304E3751727FB25002E9C88 /* NumberFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberFilter.m; sourceTree = "<group>"; };
+		A304E3761727FB25002E9C88 /* NumberParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberParser.h; sourceTree = "<group>"; };
+		A304E3771727FB25002E9C88 /* NumberParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberParser.m; sourceTree = "<group>"; };
+		A304E3781727FB25002E9C88 /* StringCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringCalculator.h; sourceTree = "<group>"; };
+		A304E3791727FB25002E9C88 /* StringCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringCalculator.m; sourceTree = "<group>"; };
+		A318C32B1727FD0D008F3CFE /* MathematicsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathematicsSpec.m; sourceTree = "<group>"; };
+		A318C32C1727FD0D008F3CFE /* NumberFilterSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberFilterSpec.m; sourceTree = "<group>"; };
+		A318C32D1727FD0D008F3CFE /* NumberParserSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberParserSpec.m; sourceTree = "<group>"; };
+		A318C32E1727FD0D008F3CFE /* StringCalculatorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringCalculatorSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +93,7 @@
 				A304E35C1727FAAD002E9C88 /* SenTestingKit.framework in Frameworks */,
 				A304E35D1727FAAD002E9C88 /* UIKit.framework in Frameworks */,
 				A304E35E1727FAAD002E9C88 /* Foundation.framework in Frameworks */,
+				4014C26861344682981EB8E1 /* libPods-StringCalculatorTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +107,7 @@
 				A304E3611727FAAD002E9C88 /* StringCalculatorTests */,
 				A304E33C1727FAAB002E9C88 /* Frameworks */,
 				A304E33B1727FAAB002E9C88 /* Products */,
+				22C75E4C8FB54B008627E788 /* Pods-StringCalculatorTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +127,7 @@
 				A304E33F1727FAAB002E9C88 /* Foundation.framework */,
 				A304E3411727FAAB002E9C88 /* CoreGraphics.framework */,
 				A304E35B1727FAAD002E9C88 /* SenTestingKit.framework */,
+				307A0C59968F4BCDA34CFB5F /* libPods-StringCalculatorTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,8 +135,14 @@
 		A304E3431727FAAB002E9C88 /* StringCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				A304E34C1727FAAC002E9C88 /* SCAppDelegate.h */,
-				A304E34D1727FAAC002E9C88 /* SCAppDelegate.m */,
+				A304E3721727FB25002E9C88 /* Mathematics.h */,
+				A304E3731727FB25002E9C88 /* Mathematics.m */,
+				A304E3741727FB25002E9C88 /* NumberFilter.h */,
+				A304E3751727FB25002E9C88 /* NumberFilter.m */,
+				A304E3761727FB25002E9C88 /* NumberParser.h */,
+				A304E3771727FB25002E9C88 /* NumberParser.m */,
+				A304E3781727FB25002E9C88 /* StringCalculator.h */,
+				A304E3791727FB25002E9C88 /* StringCalculator.m */,
 				A304E3441727FAAB002E9C88 /* Supporting Files */,
 			);
 			path = StringCalculator;
@@ -122,6 +151,8 @@
 		A304E3441727FAAB002E9C88 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A304E34C1727FAAC002E9C88 /* SCAppDelegate.h */,
+				A304E34D1727FAAC002E9C88 /* SCAppDelegate.m */,
 				A304E3451727FAAB002E9C88 /* StringCalculator-Info.plist */,
 				A304E3461727FAAC002E9C88 /* InfoPlist.strings */,
 				A304E3491727FAAC002E9C88 /* main.m */,
@@ -136,8 +167,10 @@
 		A304E3611727FAAD002E9C88 /* StringCalculatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				A304E3671727FAAD002E9C88 /* StringCalculatorTests.h */,
-				A304E3681727FAAD002E9C88 /* StringCalculatorTests.m */,
+				A318C32B1727FD0D008F3CFE /* MathematicsSpec.m */,
+				A318C32C1727FD0D008F3CFE /* NumberFilterSpec.m */,
+				A318C32D1727FD0D008F3CFE /* NumberParserSpec.m */,
+				A318C32E1727FD0D008F3CFE /* StringCalculatorSpec.m */,
 				A304E3621727FAAD002E9C88 /* Supporting Files */,
 			);
 			path = StringCalculatorTests;
@@ -180,6 +213,7 @@
 				A304E3561727FAAD002E9C88 /* Frameworks */,
 				A304E3571727FAAD002E9C88 /* Resources */,
 				A304E3581727FAAD002E9C88 /* ShellScript */,
+				FB588BDE6AF7407BBB08652F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -255,6 +289,20 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		FB588BDE6AF7407BBB08652F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-StringCalculatorTests-resources.sh\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -264,6 +312,10 @@
 			files = (
 				A304E34A1727FAAC002E9C88 /* main.m in Sources */,
 				A304E34E1727FAAC002E9C88 /* SCAppDelegate.m in Sources */,
+				A304E37A1727FB25002E9C88 /* Mathematics.m in Sources */,
+				A304E37B1727FB25002E9C88 /* NumberFilter.m in Sources */,
+				A304E37C1727FB25002E9C88 /* NumberParser.m in Sources */,
+				A304E37D1727FB25002E9C88 /* StringCalculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +323,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A304E3691727FAAD002E9C88 /* StringCalculatorTests.m in Sources */,
+				A318C32F1727FD0D008F3CFE /* MathematicsSpec.m in Sources */,
+				A318C3301727FD0D008F3CFE /* NumberFilterSpec.m in Sources */,
+				A318C3311727FD0D008F3CFE /* NumberParserSpec.m in Sources */,
+				A318C3321727FD0D008F3CFE /* StringCalculatorSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,34 +442,28 @@
 		};
 		A304E3701727FAAD002E9C88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22C75E4C8FB54B008627E788 /* Pods-StringCalculatorTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StringCalculator.app/StringCalculator";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StringCalculator/StringCalculator-Prefix.pch";
 				INFOPLIST_FILE = "StringCalculatorTests/StringCalculatorTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TEST_HOST = "${BUNDLE_LOADER}";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
 		A304E3711727FAAD002E9C88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22C75E4C8FB54B008627E788 /* Pods-StringCalculatorTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StringCalculator.app/StringCalculator";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StringCalculator/StringCalculator-Prefix.pch";
 				INFOPLIST_FILE = "StringCalculatorTests/StringCalculatorTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TEST_HOST = "${BUNDLE_LOADER}";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
@@ -438,6 +487,7 @@
 				A304E36E1727FAAD002E9C88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A304E36F1727FAAD002E9C88 /* Build configuration list for PBXNativeTarget "StringCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +496,7 @@
 				A304E3711727FAAD002E9C88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
