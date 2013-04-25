@@ -3,4 +3,4 @@ Podfile
 Podfile.lock
 Pods/*
 *.swp
-
+*.xcuserstate
